@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 namespace DailyRewarded
 {
-    [RequireComponent(typeof(Button))]
     public class DailyRewardedButton : MonoBehaviour
     {
         [SerializeField] private DailyRewardedPanel _panel = null;

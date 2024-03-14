@@ -71,9 +71,6 @@ namespace DailyRewarded
         {
             _spinButton.interactable = false;
 
-            _spinButtonGroup.DOFade(0f, 0.25f)
-                .OnComplete(() => _spinButton.gameObject.SetActive(false));
-            
             int spinCount = Random.Range(_minSpinCount, _maxSpinCount);
             int sectorIndex = Random.Range(0, _sectors.Length);
 
@@ -107,38 +104,33 @@ namespace DailyRewarded
 
                         if (angle > sector.startAngle && angle < sector.endAngle)
                         {
-                            if (sector.prizeType == PrizeType.Coins)
-                            {
-                                if (sector.amount == 0)
+                            _spinButtonGroup.DOFade(0f, 0.25f)
+                                .OnComplete(() =>
                                 {
-                                    AudioController.PlaySound("zero");
-                                }
-                                else
-                                {
-                                    AudioController.PlaySound("coins");
-                                }
+                                    if (sector.amount == 0)
+                                    {
+                                        AudioController.PlaySound("zero");
+                                    }
+                                    else
+                                    {
+                                        AudioController.PlaySound("coins");
+                                    }
 
-                                Wallet.AddMoney(sector.amount);
+                                    Wallet.AddMoney(sector.amount);
 
-                                _prizeGroup.gameObject.SetActive(true);
-                                _prizeGroup.DOFade(1f, 0.25f);
+                                    _spinButton.gameObject.SetActive(false);
+                                    
+                                    _prizeGroup.gameObject.SetActive(true);
+                                    _prizeGroup.DOFade(1f, 0.25f);
 
-                                _prizeText.DOCounter(0, sector.amount, 0.5f, false);
+                                    _prizeText.DOCounter(0, sector.amount, 0.5f, false);
 
-                                _okButton.interactable = true;
+                                    _okButton.interactable = true;
 
-                                IsReachedPrizeToday = true;
-                            }
-                            else
-                            {
-                                AudioController.PlaySound("free_spin");
+                                    IsReachedPrizeToday = true;
 
-                                _spinButtonGroup.gameObject.SetActive(true);
-                                _spinButtonGroup.DOFade(1f, 0.25f);
+                                });
 
-                                _spinButton.interactable = true;
-                            }
-                            
                             return;
                         }
                     }
@@ -160,8 +152,8 @@ namespace DailyRewarded
                 Vector3[] vertices = new Vector3[]
                 {
                     startPosition,
-                    startPosition + (Quaternion.Euler(0, 0, startRotation - _sectors[i].startAngle) * transform.up * 10f),
-                    startPosition + (Quaternion.Euler(0, 0, startRotation - _sectors[i].endAngle) * transform.up * 10f)
+                    startPosition + (Quaternion.Euler(0, 0, startRotation - _sectors[i].startAngle) * transform.up * 5f),
+                    startPosition + (Quaternion.Euler(0, 0, startRotation - _sectors[i].endAngle) * transform.up * 5f)
                 };
 
                 int[] triangles = new int[]

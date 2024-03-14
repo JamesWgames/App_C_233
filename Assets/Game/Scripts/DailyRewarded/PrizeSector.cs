@@ -7,7 +7,6 @@ namespace DailyRewarded
     {
         public float startAngle = 0;
         public float endAngle = 0;
-        public PrizeType prizeType = 0;
         public int amount = 1;
     }
 }
