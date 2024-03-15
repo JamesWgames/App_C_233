@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e40a91ca1f62420b9b578a65087afd7, type: 3}
-  m_Name: SlotMachineSettings
+  m_Name: CustomSettings
   m_EditorClassIdentifier: 
   _fieldSize: {x: 5, y: 3}
   _maxBet: 100

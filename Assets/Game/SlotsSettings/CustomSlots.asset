@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff0ba4c28a2ab4079bc8737ba037f066, type: 3}
-  m_Name: MOG_CustomSlotsData
+  m_Name: CustomSlots
   m_EditorClassIdentifier: 
   _slots:
   - _type: 1
-    _slotSprite: {fileID: 21300000, guid: 80ad4541059a2443f94425b51976dc64, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 195007a08381d418495f17e419d92967, type: 3}
     _glowSprite: {fileID: 21300000, guid: 36655c55548444bdd917112adc217e02, type: 3}
     _spawnPercent: 6
     _inLineCount: 
     _inLinePrize: []
   - _type: 2
-    _slotSprite: {fileID: 21300000, guid: a9abfff6464154dc5a4bc1ecdad4af88, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 07a324da2a67a4f29a62714dab3a2997, type: 3}
     _glowSprite: {fileID: 21300000, guid: 36655c55548444bdd917112adc217e02, type: 3}
     _spawnPercent: 6
     _inLineCount: 050000000400000003000000
@@ -29,13 +29,13 @@ MonoBehaviour:
     - 20
     - 2
   - _type: 3
-    _slotSprite: {fileID: 21300000, guid: 85e8564155b3042408f39a5ef4873432, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 9db0623038dab4db6b7408f2cafdda81, type: 3}
     _glowSprite: {fileID: 21300000, guid: 36655c55548444bdd917112adc217e02, type: 3}
     _spawnPercent: 6
     _inLineCount: 
     _inLinePrize: []
   - _type: 0
-    _slotSprite: {fileID: 21300000, guid: ce09bc201213448e084f2bdf2d5ee3c9, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 45a770895cb3742d3a8162a77bec3ef5, type: 3}
     _glowSprite: {fileID: 21300000, guid: 2d0dc13edec044f3987a15b6c2013b5d, type: 3}
     _spawnPercent: 3
     _inLineCount: 05000000040000000300000002000000
@@ -45,7 +45,7 @@ MonoBehaviour:
     - 2
     - 1
   - _type: 0
-    _slotSprite: {fileID: 21300000, guid: 0053b6c1a4e09452ab07472a8dd991e4, type: 3}
+    _slotSprite: {fileID: 21300000, guid: d06b5db974cb5421faf4ab8309f9b72f, type: 3}
     _glowSprite: {fileID: 21300000, guid: 653b95dd023e944c7b859f43c0b8a900, type: 3}
     _spawnPercent: 5
     _inLineCount: 05000000040000000300000002000000
@@ -55,7 +55,7 @@ MonoBehaviour:
     - 2
     - 0.5
   - _type: 0
-    _slotSprite: {fileID: 21300000, guid: c58b1d20be0f547468149334d6d6ded6, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 3cc21268e5fcb4bdb9ea41acfc0cded2, type: 3}
     _glowSprite: {fileID: 21300000, guid: 3843a048a275640fb8d9d5460692e703, type: 3}
     _spawnPercent: 6
     _inLineCount: 05000000040000000300000002000000
@@ -65,7 +65,7 @@ MonoBehaviour:
     - 1.5
     - 1
   - _type: 0
-    _slotSprite: {fileID: 21300000, guid: 8f76930a11c0c413c900e931261364b5, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 46692f90f6afb4ce4823b303a60da304, type: 3}
     _glowSprite: {fileID: 21300000, guid: 3843a048a275640fb8d9d5460692e703, type: 3}
     _spawnPercent: 6
     _inLineCount: 05000000040000000300000002000000
@@ -75,7 +75,7 @@ MonoBehaviour:
     - 1.5
     - 1
   - _type: 0
-    _slotSprite: {fileID: 21300000, guid: b2cb012d93e104b51934b5fbd3940dfc, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 0a9c417002f3f473cb12381e0e31d09c, type: 3}
     _glowSprite: {fileID: 21300000, guid: 1b43677c6c942467d872a262da5a595c, type: 3}
     _spawnPercent: 10
     _inLineCount: 050000000400000003000000
@@ -84,7 +84,7 @@ MonoBehaviour:
     - 1.5
     - 0.2
   - _type: 0
-    _slotSprite: {fileID: 21300000, guid: d03a2353144a44be3a2035c894c55d5d, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 240907337563f404d8e96c7a07c50fed, type: 3}
     _glowSprite: {fileID: 21300000, guid: 1b43677c6c942467d872a262da5a595c, type: 3}
     _spawnPercent: 10
     _inLineCount: 050000000400000003000000
@@ -93,7 +93,7 @@ MonoBehaviour:
     - 1.5
     - 0.2
   - _type: 0
-    _slotSprite: {fileID: 21300000, guid: d03a2353144a44be3a2035c894c55d5d, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 59713144041084527a05eb45090f1630, type: 3}
     _glowSprite: {fileID: 21300000, guid: 46567201d273d4163b68ee2a40b72d2c, type: 3}
     _spawnPercent: 14
     _inLineCount: 050000000400000003000000
@@ -102,7 +102,7 @@ MonoBehaviour:
     - 1.3
     - 0.2
   - _type: 0
-    _slotSprite: {fileID: 21300000, guid: 32cfe427d947041e4b2fa30c5c9ee1be, type: 3}
+    _slotSprite: {fileID: 21300000, guid: bbc30440cf3194acfa7a16019663db40, type: 3}
     _glowSprite: {fileID: 21300000, guid: 46567201d273d4163b68ee2a40b72d2c, type: 3}
     _spawnPercent: 14
     _inLineCount: 050000000400000003000000
@@ -111,7 +111,7 @@ MonoBehaviour:
     - 1.3
     - 0.2
   - _type: 0
-    _slotSprite: {fileID: 21300000, guid: 5080d7793c2f8442f879991c978dcb20, type: 3}
+    _slotSprite: {fileID: 21300000, guid: 7546eb804b8e04c7a8266a5752ea9ab5, type: 3}
     _glowSprite: {fileID: 21300000, guid: 46567201d273d4163b68ee2a40b72d2c, type: 3}
     _spawnPercent: 14
     _inLineCount: 050000000400000003000000
