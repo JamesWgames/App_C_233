@@ -136,11 +136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2063936198389768265, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.9999994
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2063936198389768265, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5701357
       objectReference: {fileID: 0}
     - target: {fileID: 2063936199072034562, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_Name
@@ -236,15 +236,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2063936199821136152, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_Text
-      value: 
+      value: "**Privacy policy in force**\nThis Privacy Policy explains how we collect,
+        use and protect your personal information on our website (the \"Site\").
+        Please read this policy carefully before using the Site.\n \n**Collection
+        of information**\nWe may collect information when you register on the Site,
+        fill out forms, register on resources we link to, or otherwise interact with
+        the Site. The information we may collect includes your name, email address,
+        contact information and other information you provide to us.\n \n**Use of
+        information**\nWe use your personal information to provide access to the
+        Site, send you information and notifications, respond to your requests, and
+        ensure the quality of our services. We do not disclose your personal information
+        to third parties without your consent, unless required by law.\n \n**Protection
+        of information**\nWe take reasonable steps to protect your personal information
+        from unauthorised access, loss, alteration or disclosure. However, there
+        can be no guarantee of complete security over Internet transmission and you
+        do so at your own risk.Welcome to the App!\n \nThese terms and conditions
+        set out the rules and regulations for the use of the App. By using the App,
+        we assume that you accept these terms and conditions. Do not continue to
+        use the App if you do not agree to be bound by all of the terms and conditions
+        set out on this page.\n \nThe following terminology applies to these Terms
+        and Conditions, the Privacy Statement and the Disclaimer, and to all Agreements:
+        \"Client\", \"you\" and \"your\" refer to you, the person accessing this
+        website and complying with the Company's terms and conditions. \"Company\",
+        \"We\", \"Our\" and \"Us\" refer to our Company. \"Party\", \"Parties\" or
+        \"Us\" refers to both the Client and us. All terms refer to the offer, acceptance
+        and consideration of payment necessary to carry out the process of our assistance
+        to the Client in the most appropriate manner to meet the Client's needs for
+        the provision of the Company's stated services, in accordance with and subject
+        to the applicable laws of the Netherlands. The use of the above terminology
+        or other words in singular, plural, capitalised and/or he/she or they shall
+        be deemed interchangeable and therefore refer to the same.\n \n**Licence**\nUnless
+        otherwise stated, the App and/or its licensors own the intellectual property
+        rights to all material on the App. All intellectual property rights are reserved.
+        You may access this from the App for your own personal use, subject to the
+        restrictions set out in these terms and conditions.\n \n**You may not:**\nRepublish
+        material from the App;\nSell, rent or sub-license material from the App;\nReproduce,
+        duplicate or copy material from the App;\nRedistribute content from the App.\nThis
+        Agreement starts from the date of its signing.\n \nParts of the App provide
+        users with the ability to post and share opinions and information in certain
+        areas of the website. App does not filter, edit, publish or review comments
+        before they appear on the website. Comments do not reflect the views and
+        opinions of App, its agents and/or affiliates. Comments reflect the views
+        and opinions of the person posting their views and opinions. To the extent
+        permitted by applicable laws, App is not responsible for the Comments or
+        for any liability, loss or damage caused and/or suffered as a result of any
+        use and/or publication and/or appearance of the Comments on this website.\n
+        \nApp reserves the right to monitor all Comments and to remove any Comments
+        that may be deemed inappropriate, offensive or in breach of these Terms and
+        Conditions.\n \n**You warrant and represent that:**\nYou have the right to
+        post Comments on the App and have all necessary licences and consents to
+        do so;\nThe Comments do not violate any intellectual property right, including
+        but not limited to any copyright, patent or trademark of any third party;\nComments
+        do not contain any defamatory, obscene, abusive, indecent or otherwise unlawful
+        material that constitutes an invasion of privacy\nComments will not be used
+        to solicit or advertise a business or custom or to represent commercial activity
+        or illegal activity.\nYou hereby grant App a non-exclusive licence to use,
+        reproduce, edit and authorise others to use, reproduce and edit any of your
+        Comments in any form, format or media.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 2063936199821136158, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 17
+      value: 1768
       objectReference: {fileID: 0}
     - target: {fileID: 2063936199821136158, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063936200381917328, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
+      propertyPath: m_Text
+      value: Privacy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
@@ -5121,11 +5181,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2063936198389768265, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.17894688
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2063936198389768265, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.31221718
       objectReference: {fileID: 0}
     - target: {fileID: 2063936199072034562, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_Name
@@ -5229,15 +5289,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2063936199821136152, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_Text
-      value: 
+      value: "These Terms of Use (the \"Terms\") set out your rights and obligations
+        when using our Website. By continuing to use the Site, you agree to be bound
+        by these Terms. If you do not agree to the Terms, please stop using the Website.\n
+        \n**Rights and licence.**\nYou may use the Site in accordance with these
+        Terms and all applicable laws and regulations. We grant you a limited, non-exclusive,
+        non-transferable licence to use the Site for your personal use. You may not
+        distribute, transmit, sell, reproduce, publish, exploit commercially or create
+        derivative works based on the materials available on the Site without our
+        prior written consent.\n \n**Limitation of Liability.**\nWe shall not be
+        liable for any direct or indirect damages, loss of profits or other damages
+        arising from the use of the Site or the inability to use it. We do our best
+        to ensure the availability and security of the Site, but we cannot guarantee
+        that the Site will be available uninterrupted or error-free.\n \n**Changes
+        to the Terms.**\nWe may update these Terms from time to time. Please check
+        them periodically for the latest changes. Your continued use of the Site
+        after the Terms have been changed indicates your acceptance of the updated
+        Terms.\n \n**Use of the Content.**\nAll content on the Site, including text,
+        images, videos and other materials, is our property or licensed from third
+        parties. You may view, copy and download this content for your personal use
+        and non-commercial purposes only.\n \n**Users under the age of 18.**\nThis
+        site is not intended for users under the age of 18. We recommend that parents
+        and guardians provide appropriate supervision and assistance to children
+        in their use of the Site.\n \n**Violation of the Terms.**\nWe reserve the
+        right to terminate your access to the Site if you violate these Terms or
+        the law. We may also take appropriate measures, including legal action, in
+        the event of unauthorised use of the Site.\n \n**Final provisions.**\nThese
+        Terms constitute the entire agreement between you and us with respect to
+        the use of the Site and supersede all prior oral or written agreements. If
+        any provision of these Terms is found to be invalid or unenforceable, the
+        remaining provisions of the Terms will not be affected.\n \nThis expanded
+        text of the Terms of Use contains additional details and explanations regarding
+        the rights and obligations of users of the Website. It is always important
+        to ensure that the Terms of Use are clear and meet the requirements of your
+        business and the law.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 2063936199821136158, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 17
+      value: 1105
       objectReference: {fileID: 0}
     - target: {fileID: 2063936199821136158, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063936200381917328, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
+      propertyPath: m_Text
+      value: Terms
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627731be0f7d24d6dbc4c46399aef849, type: 3}
